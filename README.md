@@ -1,2 +1,2 @@
 # projects
- little projects that i do to train my skills
+ little projects that i did to train my skills
