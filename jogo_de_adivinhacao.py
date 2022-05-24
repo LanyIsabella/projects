@@ -11,6 +11,8 @@ frases_perdedor = ('ARGH! Perdi.\nNa próxima eu acerto.', 'OH NÃO, eu errei.\n
 frases_ganhador = ('HAHA, eu acertei!\nSou muito bom mesmo, na próxima escolha um valor mais difícil.', 'IRRUUL, acertei!\nJá te disse que sou o melhor computador?',
                    'VIVA!\nNunca duvide das minhas habilidades de computador!')
 jogador = int(input('Digite um valor inteiro de 0 a 10: '))
+while jogador < 0 or jogador > 10:
+    jogador = int(input('Digite um valor inteiro de 0 a 10: '))
 computador = randint(0,10)
 print('O computador terá que adivinhar o valor escolhido!')
 sleep(1)
