@@ -1,14 +1,14 @@
 from random import choice
 from time import sleep
 
-print('-----'*4)
-print('VAMOS JOGAR JOKENPO')
-print('-----'*4)
+print('-'*30)
+print(f"{'VAMOS JOGAR JOKENPO':^30}")
+print('-'*30)
 sleep(1)
-print('Você tem três opções.'
-      '\nPedra - Papel - Tesoura'
-      ' \nEscolha sabiamente!')
-print('-----'*4)
+print(f"{'Você tem três opções.':^30}")
+print(f"{'Pedra - Papel - Tesoura':^30}")
+print(f"{'Escolha sabiamente!':^30}")
+print('-'*30)
 sleep(1)
 jogador = input('Digite qual vai ser a sua jogada: [Pedra/Papel/Tesoura] ').upper().strip()
 escolhas = ('PEDRA', 'PAPEL', 'TESOURA')
