@@ -1,21 +1,21 @@
 from random import randint
 from time import sleep
 
-print('~~~~'*7)
-print('  VAMOS JOGAR PAR OU ÍMPAR')
-print('~~~~'*7)
+print('~'*30)
+print(f"{'VAMOS JOGAR PAR OU ÍMPAR':^30}")
+print('~'*30)
 sleep(1)
 
 computador_valor = randint(0, 10)
-escolha = str(input('  Par ou ímpar? ')).upper().strip()[0]
+escolha = str(input(f"{'Par ou ímpar?':^30}")).upper().strip()[0]
 
 while escolha not in 'PIÍ':
-    escolha = str(input('  Par ou ímpar? ')).upper().strip()[0]
+    escolha = str(input(f"{'Par ou ímpar?':^30}")).upper().strip()[0]
 
-print('~~~~' * 7)
-valor = int(input('  Digite um valor inteiro entre 0 e 10: '))
+print('~' * 30)
+valor = int(input(f"{'Digite um valor inteiro entre 0 e 10:':^30}"))
 while valor < 0 or valor > 10:
-    valor = int(input('  Digite um valor inteiro entre 0 e 10: '))
+    valor = int(input(f"{'Digite um valor inteiro entre 0 e 10:':^30}"))
 computador_valor = randint(0,10)
 valor_total = valor + computador_valor
 
