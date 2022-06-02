@@ -1,2 +1,2 @@
-# projects
- little projects that i did to train my skills
+# projetos
+pequenos programas que fiz para treinar minhas skills em python
